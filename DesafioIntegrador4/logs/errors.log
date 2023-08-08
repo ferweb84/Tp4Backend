@@ -1,0 +1,33 @@
+
+{"level":"error","message":"Cannot update user documents with error: TypeError: userService.decodeUser is not a function"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 15:10:30"}
+{"level":"error","message":"Cannot update user documents with error: TypeError: Cannot convert undefined or null to object"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 15:11:07"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 15:14:09"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 15:18:44"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 15:19:55"}
+{"level":"debug","message":"POST in /api/sessions/login - 17:10:49"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 17:11:31"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 17:12:19"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 17:15:14"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 17:22:43"}
+{"level":"debug","message":"POST in /api/sessions/login - 17:44:50"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 17:52:46"}
+{"level":"debug","message":"POST in /api/sessions/login - 18:00:32"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:00:36"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d - 18:00:56"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d - 18:01:55"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d - 18:01:57"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d - 18:02:49"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:05:20"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:08:07"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:16:12"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:17:30"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:21:27"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:23:01"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:25:49"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:31:02"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:31:54"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:33:06"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:34:18"}
+{"level":"debug","message":"POST in /api/users/64bb08db4b8e74a1200c207d/documents - 18:35:56"}
