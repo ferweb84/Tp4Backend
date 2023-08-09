@@ -42,9 +42,9 @@ export async function sendEmail(req, res) {
         <a href=${resetUrl}><button>send</button></a>
         `,
         attachments: [{
-            filename: '14360092_321312491563922_4116234985050996736_n.jpg',
-            path: `${__dirname}/public/images/1681689464000-Micro-Procesador-Ryzen-5-4500-6-Nucleos-4.1ghz-Amd-Ddr4.png`,
-            cid: 'hola1'
+            filename: 'yerba-amanda-500.png',
+            path: `${__dirname}/public/images/yerba-amanda-500.png`,
+            cid: 'hola1 yerba'
         }]
     })
     if (!result) {

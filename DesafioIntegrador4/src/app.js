@@ -16,35 +16,35 @@ import bodyParser from "body-parser";
 
 
 //Initialization
-const productServer = express();
+const app = express();
 //Middlewares
-productServer.use(bodyParser.json());
-productServer.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
-productServer.use(winstonLogger)
-productServer.use(express.json());
-productServer.use(express.static(`${__dirname}/public`));
-productServer.use(express.urlencoded({ extended: true }));
+app.use(winstonLogger)
+app.use(express.json());
+app.use(express.static(`${__dirname}/public`));
+app.use(express.urlencoded({ extended: true }));
 
-productServer.use(cookieParser())
+app.use(cookieParser())
 
-productServer.use(cookieParser())
+app.use(cookieParser())
 initializePassport()
 
 
 
 database.connect();
 
-routesFunction(productServer)
-productServer.use(passport.initialize())
-productServer.use(passport.session())
+routesFunction(app)
+app.use(passport.initialize())
+app.use(passport.session())
 
 //View engine
-productServer.engine("handlebars", handlebars.engine());
-productServer.set("views", `${__dirname}/views`);
-productServer.set("view engine", "handlebars");
+app.engine("handlebars", handlebars.engine());
+app.set("views", `${__dirname}/views`);
+app.set("view engine", "handlebars");
 
-const httpServer = productServer.listen(8080, (req, res) => {
+const httpServer = app.listen(8080, (req, res) => {
   try {
     console.log("Listening on port 8080")
   } catch (error) {

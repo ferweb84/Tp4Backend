@@ -1,8 +1,8 @@
 {
-  "name": "desafio1",
+  "name": "2preentrega",
   "version": "1.0.0",
   "description": "",
-  "main": "desafio1.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "start:dev": "nodemon ./src/app.js -env DEVELOPMENT",
